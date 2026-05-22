@@ -134,6 +134,10 @@ Create a `.env` file in the project root:
 OPENAI_API_KEY=sk-your-openai-key-here
 ```
 
+> ⚠️ This is the **only variable needed**. The app handles everything else (DB path, rebuild) through the Streamlit UI buttons.
+
+> 🔒 Never commit this file to GitHub — it's already excluded in `.gitignore`.
+
 ### Step 5: Run the app
 ```bash
 streamlit run app.py
