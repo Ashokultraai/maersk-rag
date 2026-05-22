@@ -1,0 +1,21 @@
+# Web scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+
+# Vector database
+faiss-cpu>=1.7.4
+
+# OpenAI
+openai>=1.30.0
+tiktoken>=0.7.0
+
+# Environment & UI
+python-dotenv>=1.0.0
+streamlit>=1.35.0
